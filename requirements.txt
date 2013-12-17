@@ -1,0 +1,7 @@
+Django==1.4.10
+South==0.7.1
+Whoosh==2.4.0
+django-haystack==1.2.7
+django-registration==1.0
+djangopypi==0.4.4
+haystack==0.15
