@@ -10,7 +10,7 @@ DEBUG = False
 TEMPLATE_DEBUG = True
 
 ADMINS = (
-    # ('Your Name', 'your_email@domain.com'),
+    ('Jay', 'jwineinger@8thbridge.com'),
 )
 
 # Allow uploading a new distribution file for a project version
@@ -34,12 +34,16 @@ SERVER_EMAIL = DEFAULT_FROM_EMAIL
 
 MANAGERS = ADMINS
 
-DATABASE_ENGINE = ''
-DATABASE_NAME = ''
-DATABASE_USER = ''
-DATABASE_PASSWORD = ''
-DATABASE_HOST = ''
-DATABASE_PORT = ''
+DATABASES = {
+    'default': {
+        'ENGINE': '',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
+    }
+}
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
